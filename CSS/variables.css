@@ -1,5 +1,68 @@
-:root{
-    --color-green: #2D5A43;
-    --color-brown: #944931;
-    --text-font: "Space Grotesk";
+:root {
+  /* ---------- Couleurs de marque  ---------- */
+  --color-green: #2D5A43;          /* vert principal : boutons, badges, liens */
+  --color-green-dark: #14402D;     /* titres, sections sombres (CTA, carte audit) */
+  --color-green-light: #5FA67F;    /* barres de progression, details */
+  --color-brown: #944931;          /* terracotta : CTA secondaire, chiffres cles */
+  --color-brown-dark: #763824;     /* hover du bouton terracotta */
+  --color-salmon: #F4977F;         /* accent : barre plastique, pastilles */
+
+  /* ---------- Fonds ---------- */
+  --color-bg: #F0F9F1;             /* fond general de la page */
+  --color-surface: #E7F2E9;        /* cartes et sections alternees */
+  --color-surface-strong: #DFEAE1; /* sections formulaire */
+  --color-white: #FFFFFF;          /* cartes blanches, champs de formulaire */
+  --color-salmon-soft: #FDE4DC;    /* pastilles saumon claires */
+
+  /* ---------- Texte, bordures, etats ---------- */
+  --color-text: #1B2A22;           /* texte courant */
+  --color-text-muted: #55655C;     /* texte secondaire */
+  --color-text-on-dark: #FFFFFF;   /* texte sur fond vert fonce */
+  --color-border: #CFE0D3;
+  --color-focus: #F5A623;          /* contour clavier (touche Tab) */
+  --color-error: #B3261E;
+  --color-success: #2E7D4F;
+
+  /* ---------- Typographie ---------- */
+  --text-font: "Space Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --text-xs: 0.75rem;    /* 12px : etiquettes, badges */
+  --text-sm: 0.875rem;   /* 14px : texte secondaire */
+  --text-base: 1rem;     /* 16px : texte courant */
+  --text-lg: 1.375rem;   /* 22px : titres de cartes */
+  --text-xl: 1.75rem;    /* 28px : titres de section */
+  --text-2xl: 2.25rem;   /* 36px : titre H1 mobile */
+  --text-3xl: 2.75rem;   /* 44px : gros chiffres (impact) */
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-bold: 700;
+
+  --line-tight: 1.15;
+  --line-base: 1.6;
+
+  /* ---------- Espacements (echelle de 4px) ---------- */
+  --space-1: 0.25rem;    /* 4px */
+  --space-2: 0.5rem;     /* 8px */
+  --space-3: 0.75rem;    /* 12px */
+  --space-4: 1rem;       /* 16px */
+  --space-5: 1.5rem;     /* 24px */
+  --space-6: 2rem;       /* 32px */
+  --space-7: 3rem;       /* 48px */
+  --space-8: 4rem;       /* 64px */
+
+  /* ---------- Layout ---------- */
+  --container-max: 1200px;
+  --grid-gap: var(--space-5);
+
+  /* ---------- Formes ---------- */
+  --radius-sm: 6px;      /* boutons, champs */
+  --radius-md: 12px;     /* cartes */
+  --radius-pill: 999px;  /* badges et filtres arrondis */
+
+  --shadow-card: 0 6px 18px rgba(20, 64, 45, 0.10);
+
+  /* ---------- Animation & accessibilite ---------- */
+  --transition: 200ms ease;
+  --tap-size: 44px;      /* taille minimale d'un bouton tactile */
 }
