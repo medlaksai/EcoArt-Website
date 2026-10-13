@@ -16,12 +16,14 @@
 
   /* ---------- Texte, bordures, etats ---------- */
   --color-text: #1B2A22;           /* texte courant */
+  --color-active: #9FCFB2;
   --color-text-muted: #55655C;     /* texte secondaire */
   --color-text-on-dark: #FFFFFF;   /* texte sur fond vert fonce */
   --color-border: #CFE0D3;
   --color-focus: #F5A623;          /* contour clavier (touche Tab) */
   --color-error: #B3261E;
   --color-success: #2E7D4F;
+  --color-textp: #414943;
 
   /* ---------- Typographie ---------- */
   --text-font: "Space Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
