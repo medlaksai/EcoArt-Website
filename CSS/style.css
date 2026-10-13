@@ -72,3 +72,21 @@ footer p{
     padding: var(--space-4);
     gap: var(--space-4);
 }
+.footer_second_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: var(--space-4);
+}
+.footer_third_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: var(--space-4);
+}
+.footer_forth_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: var(--space-4);
+}
