@@ -140,18 +140,6 @@ Then open a **Pull Request** and ask a teammate to review it before merging.
 
 ---
 
-## Team
-
-| Name | Role | Pages |
-|------|------|-------|
-| _Name_ | _e.g. Designer / Developer_ | _e.g. index.html_ |
-| _Name_ | | |
-| _Name_ | | |
-| _Name_ | | |
-| _Name_ | | |
-
----
-
 ## Credits
 
 Project by **Nexora** for **EcoArt**.
