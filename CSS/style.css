@@ -7,6 +7,22 @@ body{
     margin: 0;
     font-family: var(--text-font);
 }
+.menu-icon{
+    /* display: none; */
+    display: block;
+    font-size: 40px;
+    margin: 0;
+    padding: 0 12px 0 12px;
+    cursor: pointer;
+    color: var(--color-green-dark);
+}
+.checkbox{
+    font-size: 50px;
+    display: none;
+}
+/* #menu-toggle{
+    display: none;
+} */
 .nav_bar{
     width: 100%;
     position: fixed;
@@ -45,151 +61,142 @@ body{
     color: var(--color-active);
     border-radius: var(--radius-sm);
 }
+
+/* ======      just for test      ==========*/
 .main_section{
     width: 100%;
     height: 1200px;
 }
+/* ========================================= */
 footer{
     width: 100%;
-    height: 333px;
+    height: fit-content;
 }
 .footer_section{
-    background-color: rgb(231, 136, 136);
+    height: 100%;
+    background-color: var(--color-bg);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 0 var(--space-6);
-    /* gap: var(--space-1); */
+    padding: var(--space-4) var(--space-8);
 }
 
 
-footer p{
+.footer_section div p {
     font-size: var(--text-base);
     font-weight: var(--weight-regular);
+    color: var(--color-green-dark);
 }
 
 .footer_first_div{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: var(--space-4);
-    gap: var(--space-4);
+    padding-top: var(--space-5);
+    color: var(--color-textp);
 }
+
+.footer_first_div a {
+    display: flex;
+    align-items: center;
+    font-size: var(--text-lg);
+    font-weight: var(--weight-bold);
+    text-decoration: none;
+    gap: var(--space-3);
+    color: var(--color-green-dark);
+}
+.footer_first_div .footer_icon{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-hex);
+    border-radius: var(--radius-md);
+    padding: var(--space-1) var(--space-2);
+    gap: var(--space-1);
+}
+.footer_first_div p {
+    padding: var(--space-1) var(--space-8) 0 0;
+    font-size: var(--text-xs);
+}
+.footer_icon span {
+    font-size: 11px;
+}
+
 .footer_second_div{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding: var(--space-4);
+    padding-bottom: var(--space-3);
+}
+.footer_second_div div {
+    display: flex;
+    flex-direction: column;
+}
+.footer_second_div a, .footer_third_div h4 {
+    margin: 0;
+    padding: var(--space-1);
+    text-decoration: none;
+    color: var(--color-green-dark);
+    font-size: var(--text-sm);
+
+}
+p{
+    font-size: var(--text-xs);
+}
+
+.footer_section div h2 {
+    color: var(--color-green-dark);
 }
 .footer_third_div{
+    padding-right: var(--space-8);
+}
+.footer_third_div div {
+    background-color: var(--color-hex);
+    border-radius: var(--radius-sm);
+    padding: var(--space-1) var(--space-2) ;
+    margin: var(--space-1) 0;
+}
+.footer_third_div p{
+    margin: var(--space-1);
+    font-size: var(--text-xs);
+}
+.footer_section div h4 {
+    color: var(--color-green-dark);
+}
+
+.input_div{
+    width: 90%;
+    display: flex;
+    gap: var(--space-1);
+}
+.footer_input{
+    width: 60%;
+    height: 28px;
+    border-radius: var(--radius-sm);
+    border: none;
+    padding: var(--space-1) var(--space-5);
+}
+.footer_submit{
+    width: 35%;
+    border-radius: var(--radius-sm);
+    background-color: var(--color-green-dark);
+    border: none;
+    color: var(--color-white);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-regular);
+}
+.footer_submit:hover{
+    background-color: var(--color-green-light);
+}
+.footer_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: var(--space-5);
+    background-color: var(--color-bg);
+}
+.footer_info div {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: var(--space-4);
-}
-.footer_forth_div{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: var(--space-4);
-}
-.hero {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 112px 24px 56px;
-  display: grid;
-  grid-template-columns: 1fr 490px;
-  gap: 76px;
-  align-items: center;
-}
-.hero-content {
-  
-}
-.hero-tag {
-    min-width: 0;
-}
-.hero-text {
-    margin: 40px 40px;
-    font-family: var(--text-font);
-    color: #14422D;
-    line-height: 64px;
-    font-weight:  bold;
-    font-size: 56px;
-    align-content: center;
-    justify-content: left;
-    letter-spacing: -1.4px;
-    width: 702px;
-    height: 192px;
-}
-.hero-para {
-    margin: 40px 40px;
-    font-family: var(--text-font);
-    color : #414943;
-    line-height: 28px;
-    letter-spacing: 0.18px;
-    font-size: 18px;
-    font-width: 664px;
-    height: 84px;
-}
-.btn-primary {
-    display: inline-block;
-    border-color: #14422D;
-    border: 20px;
-}
-.hero-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-}   
-.after-button {
-  display: inline-flex; align-items: center; gap: 6px;
-  background: rgba(20, 64, 44, .07);
-  color: var(--forest);
-  font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
-  padding: 6px 16px 6px 16px;
-  border-radius: 999px;
-}
-.visual { position: relative; }
-.card {
-  position: relative;
-  height: 612px;
-  border-radius: 8px;
-  overflow: hidden;
-  color: var(--white);
-  box-shadow: 0 10px 24px rgba(20, 64, 44, .15);
-  /* Replace this background with your image:
-     background: url("workshop.jpg") center / cover; */
-  background:
-    linear-gradient(180deg, rgba(0,0,0,0) 45%, rgba(40,28,16,.78) 100%),
-    linear-gradient(135deg, #e8cfa9 0%, #c79a63 45%, #9b7549 100%);
-}
-.card-info { position: absolute; left: 24px; right: 24px; bottom: 24px; }
-.kicker { font-size: 11px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; color: #8fe0b2; }
-.card h2 { font-size: 20px; font-weight: 500; line-height: 1.4; margin: 6px 0 12px; }
-.card-meta {
-  display: flex; justify-content: space-between; align-items: center;
-  padding-top: 12px; border-top: 1px solid rgba(255,255,255,.25);
-  font-size: 13px; padding-left: 150px;
-}
-.tag {
-  background: var(--white); color: var(--forest);
-  font-size: 12px; font-weight: 700;
-  padding: 4px 8px; border-radius: 2px;
-}
-@media (max-width: 767px) {
- 
-}
-
-/* 📱 Tablet: 768px – 1023px */
-@media (min-width: 768px) and (max-width: 1023px) {
- 
-}
-
-/* 💻 Laptop: 1024px – 1279px */
-@media (min-width: 1024px) and (max-width: 1279px) {
- 
-}
-
-/* 🖥️ Large screens: 1280px and above */
-@media (min-width: 1280px) {
-
 }
