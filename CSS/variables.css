@@ -10,6 +10,10 @@
   /* ---------- Fonds ---------- */
   --color-bg: #F0F9F1;             /* fond general de la page */
   --color-surface: #E7F2E9;        /* cartes et sections alternees */
+<<<<<<< Updated upstream
+=======
+  --color-hex: #DBE5DD;
+>>>>>>> Stashed changes
   --color-surface-strong: #DFEAE1; /* sections formulaire */
   --color-white: #FFFFFF;          /* cartes blanches, champs de formulaire */
   --color-salmon-soft: #FDE4DC;    /* pastilles saumon claires */
