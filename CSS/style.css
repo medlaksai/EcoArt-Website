@@ -22,7 +22,7 @@ body{
 }
 .nav_bar{
     width: 100%;
-    position: fixed;
+    position: static;
     top: 0;
     z-index: 999;
     height: 80px;
