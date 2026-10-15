@@ -200,10 +200,10 @@ p{
 
 @media (max-width:767px) {
     .nav_bar a {
-        font-size: var(--text-3xl);
+        font-size: var(--text-1xl);
     }
     .nav_bar a img {
-        width: var(--space-8);
+        width: var(--space-5);
     }
     .menu-icon{
         display: block;
