@@ -5,9 +5,12 @@
   --color-green-light: #5FA67F;    /* barres de progression, details */
   --color-brown: #944931;          /* terracotta : CTA secondaire, chiffres cles */
   --color-brown-dark: #763824;     /* hover du bouton terracotta */
-  --color-salmon: #F4977F;         /* accent : barre plastique, pastilles */
-
+  --color-salmon: #F4977F;
+  --color-white: white;        /* accent : barre plastique, pastilles */
+  --color-left-badge:#E9F3EB;
+  --color-left-badge-icon: #B5F0CA;
   /* ---------- Fonds ---------- */
+  --page-bg: #f1fbf2;
   --color-bg: #F0F9F1;             /* fond general de la page */
   --color-surface: #E7F2E9;        /* cartes et sections alternees */
   --color-hex: #DBE5DD;
@@ -25,10 +28,12 @@
   --color-error: #B3261E;
   --color-success: #2E7D4F;
   --color-textp: #414943;
+  --color-btn-home: #14422D;
+  --color-btn-home2: #944931;
 
   /* ---------- Typographie ---------- */
   --text-font: "Space Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
-
+  --text-fonts: "Space Grotesk", system-ui, sans-serif;
   --text-xs: 0.75rem;    /* 12px : etiquettes, badges */
   --text-sm: 0.875rem;   /* 14px : texte secondaire */
   --text-base: 1rem;     /* 16px : texte courant */
