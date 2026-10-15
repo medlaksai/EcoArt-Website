@@ -61,6 +61,7 @@
 
 /* Tablette */
 @media (min-width: 768px) and (max-width: 1023px) {
+/* =================  Footer =============== */
 .hero-area { grid-template-columns: 1fr; gap: 36px; padding: 72px 20px 40px; }
 .h1-hero { font-size: clamp(32px, 8vw, 42px); line-height: 1.2; margin: 18px 0 14px; }
 .hero-p { font-size: 15px; line-height: 1.7; }
@@ -84,6 +85,7 @@
         display: flex;
         flex-direction: column;
     }
+/* ========================================= */
 }
 
 /*  Ordinateur portable */
