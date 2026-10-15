@@ -61,6 +61,20 @@
 
 /* Tablette */
 @media (min-width: 768px) and (max-width: 1023px) {
+.hero-area { grid-template-columns: 1fr; gap: 36px; padding: 72px 20px 40px; }
+.h1-hero { font-size: clamp(32px, 8vw, 42px); line-height: 1.2; margin: 18px 0 14px; }
+.hero-p { font-size: 15px; line-height: 1.7; }
+.badge-hero { font-size: 10px; padding: 6px 12px; }
+.actions-btn { gap: 12px; margin: 24px 0; }
+.btn { min-height: 46px; height: auto; padding: 13px 18px; font-size: 12px; }
+.trust-badges { gap: 14px 18px; padding-left: 0; margin-top: 20px; }
+.trust-badges li { font-size: 11px; }
+.card { height: 460px; width: 100%; border-radius: 8px; }
+.card-info { left: 18px; right: 18px; bottom: 18px; }
+.card h2 { font-size: 18px; }
+.card-meta { padding-left: 0; gap: 12px; font-size: 12px; }
+.stat { left: 12px; bottom: 12px; max-width: 180px; padding: 12px; gap: 10px; }
+.stat strong { font-size: 16px; }
 .hero-container { grid-template-columns: 1fr; gap: 56px; padding: 64px 32px 72px; }
     .footer_section{
         grid-template-columns: 1fr 1fr;
