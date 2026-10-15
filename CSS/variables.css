@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 :root {
   /* ---------- Couleurs de marque  ---------- */
   --color-green: #2D5A43;          /* vert principal : boutons, badges, liens */
@@ -9,6 +10,7 @@
   --color-white: white;        /* accent : barre plastique, pastilles */
   --color-left-badge:#E9F3EB;
   --color-left-badge-icon: #B5F0CA;
+  --color-small-nav: #E6F0E8;
   /* ---------- Fonds ---------- */
   --page-bg: #f1fbf2;
   --color-bg: #F0F9F1;             /* fond general de la page */
@@ -32,7 +34,7 @@
   --color-btn-home2: #944931;
 
   /* ---------- Typographie ---------- */
-  --text-font: "Space Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --text-font: "Space Grotesk", sans-serif, system-ui, -apple-system, "Segoe UI";
   --text-fonts: "Space Grotesk", system-ui, sans-serif;
   --text-xs: 0.75rem;    /* 12px : etiquettes, badges */
   --text-sm: 0.875rem;   /* 14px : texte secondaire */
@@ -41,6 +43,7 @@
   --text-xl: 1.75rem;    /* 28px : titres de section */
   --text-2xl: 2.25rem;   /* 36px : titre H1 mobile */
   --text-3xl: 2.75rem;   /* 44px : gros chiffres (impact) */
+  --text-4xl: 3.5rem;  /* 56px */
 
   --weight-regular: 400;
   --weight-medium: 500;
