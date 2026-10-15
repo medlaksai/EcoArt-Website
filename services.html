@@ -10,26 +10,24 @@
   </head>
   <body>
     <header>
-      <nav class="nav_bar">
-        <a href="index.html"
-          ><img src="assets/icons/Logo EcoArt.png" alt="Logo EcoArt" />EcoArt</a
-        >
-        <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="produits.html">Catalogue</a></li>
-          <li>
-            <a href="services.html" class="active">Ateliers & Services</a>
-          </li>
-          <li><a href="artisans.html">Nos Artisans</a></li>
-          <li><a href="impact.html">Impact & Contact </a></li>
-        </ul>
-      </nav>
+        <nav class="nav_bar">
+            <a href="index.html"><img src="assets/icons/Logo EcoArt.png" alt="Logo EcoArt">EcoArt</a>
+            <input type="checkbox" id="menu-toggle" class="checkbox">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul class="menu_list">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="produits.html" >Catalogue</a></li>
+                <li><a href="services.html" class="active">Ateliers & Services</a></li>
+                <li><a href="artisans.html">Nos Artisans</a></li>
+                <li><a href="impact.html">Impact & Contact </a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-      <section class="-hero">
+      <section class="services-hero">
         <div class="hero-text">
-          <span class="badg">
+          <span class="services-badge">
             <img src="assets/icons/Icon-11.png" /> transmission circulaire &
             savoir-Faire
           </span>
@@ -42,27 +40,27 @@
         </div>
 
         <aside class="stats">
-          <div class="stat">
+          <div class="stat-item">
             <p class="label">Matiéres sauvées</p>
             <p class="value">2.4 <span>t</span></p>
             <p class="description">Rebuts revalorisés</p>
           </div>
-          <div class="stat">
-            <p class="stat">Group Réduits</p>
+          <div class="stat-item">
+            <p class="label">Group Réduits</p>
             <p class="value">8 <span>max</span></p>
             <p class="description">Accompagnement dédié</p>
           </div>
         </aside>
 
-        <nav class="Filières">
+        <nav class="filtres">
           <span class="filtres-label">Filiéres : </span>
-          <button type="button" class="filter-active">
+          <button type="button" class="filtre filtre-actif">
             Tout les Ateliers [4]
           </button>
-          <button type="button" class="Filter">menuiserie & bois</button>
-          <button type="button" class="filter">verrerie d'art</button>
-          <button type="button" class="filter">Textille & Teinture</button>
-          <button class="button" class="filter">Plastique Terrazzo</button>
+          <button type="button" class="filtre">menuiserie & bois</button>
+          <button type="button" class="filtre">verrerie d'art</button>
+          <button type="button" class="filtre">Textille & Teinture</button>
+          <button type="button" class="filtre">Plastique Terrazzo</button>
         </nav>
       </section>
       <!--les carts-->
@@ -78,119 +76,122 @@
           <p class="materiel-inclus">Matériel & EPI 100% inclus</p>
         </div>
 
-        <!-- CARTE 1 -->
-        <article class="card">
-          <figure>
-            <img src="assets/pictures/image_30.png" alt="Atelier menuiserie" />
-            <span class="tag">Bois & Chêne de charpente</span>
-            <span class="prix">110 €</span>
-          </figure>
-          <div class="card-body">
-            <ul class="meta">
-              <li>3h30</li>
-              <li>Débutant • Accessible</li>
-              <li>Max 6 pers.</li>
-            </ul>
-            <h3>
-              Atelier Menuiserie : Table basse ou Étagère en Chêne Récupéré
-            </h3>
-            <p>
-              Apprenez les assemblages à mi-bois, le rabotage traditionnel et la
-              finition aux huiles naturelles sur d'anciennes poutres parisiennes
-              déclassées.
-            </p>
-            <div class="dates">
-              <p>Prochaines dates :</p>
-              <p>3 places restantes</p>
-              <ul>
-                <li>Sam. 14 Oct (14h00)</li>
-                <li>Mer. 18 Oct (18h30)</li>
-                <li>Sam. 28 Oct (09h30)</li>
-              </ul>
-            </div>
-            <div class="card-actions">
-              <span>Outillage & bois fournis</span>
-              <button type="button">Sélectionner</button>
-            </div>
-          </div>
-        </article>
-
-        <!-- CARTE 2 -->
-        <article class="card">
-          <figure>
-            <img src="assets/pictures/image_18.png" alt="Atelier verrerie" />
-            <span class="tag">Bouteilles & Flacons réemployés</span>
-            <span class="prix">85 €</span>
-          </figure>
-          <div class="card-body">
-            <ul class="meta">
-              <li>2h30</li>
-              <li>Débutant</li>
-              <li>Max 6 pers.</li>
-            </ul>
-            <h3>Atelier Verrerie & Luminaire Upcyclé</h3>
-            <p>
-              Maîtrisez la coupe à froid au fil de verre, le polissage au
-              lapidaire et le câblage électrique en tissu pour fabriquer une
-              suspension design contemporaine.
-            </p>
-            <div class="dates">
-              <p>Prochaines dates :</p>
-              <p>2 places restantes</p>
-              <ul>
-                <li>Ven. 13 Oct (17h30)</li>
-                <li>Sam. 21 Oct (10h30)</li>
-                <li>Dim. 29 Oct (14h00)</li>
-              </ul>
-            </div>
-            <div class="card-actions">
-              <span>Cordon coton & douille CE</span>
-              <button type="button">Sélectionner</button>
-            </div>
-          </div>
-        </article>
-
-        <!-- CARTE 3 -->
-        <article class="card">
-          <figure>
-            <img src="assets/pictures/image_27.png" alt="Atelier couture" />
-            <span class="tag">Chutes denim & lin normand</span>
-            <span class="prix">75 €</span>
-          </figure>
-          <div class="card-body">
-            <ul class="meta">
-              <li>3h00</li>
-              <li>Tous niveaux</li>
-              <li>Max 8 pers.</li>
-            </ul>
-            <h3>Atelier Couture & Revalorisation Textile</h3>
-            <p>
-              Techniques de patronage zéro déchet, points de surpiqûre renforcés
-              et sashiko japonais pour concevoir votre besace ou tote bag
-              hautement résistant.
-            </p>
-            <div class="dates">
-              <p>Prochaines dates :</p>
-              <p>4 places restantes</p>
-              <ul>
-                <li>Sam. 14 Oct (09h30)</li>
-                <li>Jeu. 19 Oct (18h30)</li>
-                <li>Sam. 04 Nov (14h00)</li>
-              </ul>
-            </div>
-            <div class="card-actions">
-              <span>Machines & mercerie inclus</span>
-              <button type="button">Sélectionner</button>
-            </div>
-          </div>
-        </article>
-
-        <!-- CARTE 4 -->
         <div class="cards">
-          <article class="card">
+          <!-- CARTE 1 -->
+          <article class="atelier-card">
+            <figure>
+              <img
+                src="assets/pictures/image_30.png"
+                alt="Atelier menuiserie"
+              />
+              <span class="atelier-tag">Bois & Chêne de charpente</span>
+              <span class="prix">110 €</span>
+            </figure>
+            <div class="card-body">
+              <ul class="meta">
+                <li>3h30</li>
+                <li>Débutant • Accessible</li>
+                <li>Max 6 pers.</li>
+              </ul>
+              <h3>
+                Atelier Menuiserie : Table basse ou Étagère en Chêne Récupéré
+              </h3>
+              <p>
+                Apprenez les assemblages à mi-bois, le rabotage traditionnel et
+                la finition aux huiles naturelles sur d'anciennes poutres
+                parisiennes déclassées.
+              </p>
+              <div class="dates">
+                <p>Prochaines dates :</p>
+                <p>3 places restantes</p>
+                <ul>
+                  <li>Sam. 14 Oct (14h00)</li>
+                  <li>Mer. 18 Oct (18h30)</li>
+                  <li>Sam. 28 Oct (09h30)</li>
+                </ul>
+              </div>
+              <div class="card-actions">
+                <span>Outillage & bois fournis</span>
+                <button type="button">Sélectionner</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARTE 2 -->
+          <article class="atelier-card">
+            <figure>
+              <img src="assets/pictures/image_18.png" alt="Atelier verrerie" />
+              <span class="atelier-tag">Bouteilles & Flacons réemployés</span>
+              <span class="prix">85 €</span>
+            </figure>
+            <div class="card-body">
+              <ul class="meta">
+                <li>2h30</li>
+                <li>Débutant</li>
+                <li>Max 6 pers.</li>
+              </ul>
+              <h3>Atelier Verrerie & Luminaire Upcyclé</h3>
+              <p>
+                Maîtrisez la coupe à froid au fil de verre, le polissage au
+                lapidaire et le câblage électrique en tissu pour fabriquer une
+                suspension design contemporaine.
+              </p>
+              <div class="dates">
+                <p>Prochaines dates :</p>
+                <p>2 places restantes</p>
+                <ul>
+                  <li>Ven. 13 Oct (17h30)</li>
+                  <li>Sam. 21 Oct (10h30)</li>
+                  <li>Dim. 29 Oct (14h00)</li>
+                </ul>
+              </div>
+              <div class="card-actions">
+                <span>Cordon coton & douille CE</span>
+                <button type="button">Sélectionner</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARTE 3 -->
+          <article class="atelier-card">
+            <figure>
+              <img src="assets/pictures/image_27.png" alt="Atelier couture" />
+              <span class="atelier-tag">Chutes denim & lin normand</span>
+              <span class="prix">75 €</span>
+            </figure>
+            <div class="card-body">
+              <ul class="meta">
+                <li>3h00</li>
+                <li>Tous niveaux</li>
+                <li>Max 8 pers.</li>
+              </ul>
+              <h3>Atelier Couture & Revalorisation Textile</h3>
+              <p>
+                Techniques de patronage zéro déchet, points de surpiqûre
+                renforcés et sashiko japonais pour concevoir votre besace ou
+                tote bag hautement résistant.
+              </p>
+              <div class="dates">
+                <p>Prochaines dates :</p>
+                <p>4 places restantes</p>
+                <ul>
+                  <li>Sam. 14 Oct (09h30)</li>
+                  <li>Jeu. 19 Oct (18h30)</li>
+                  <li>Sam. 04 Nov (14h00)</li>
+                </ul>
+              </div>
+              <div class="card-actions">
+                <span>Machines & mercerie inclus</span>
+                <button type="button">Sélectionner</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARTE 4 -->
+          <article class="atelier-card">
             <figure>
               <img src="assets/pictures/image_19.png" alt="Atelier plastique" />
-              <span class="tag">PEHD & Bouchons triés</span>
+              <span class="atelier-tag">PEHD & Bouchons triés</span>
               <span class="prix">65 €</span>
             </figure>
             <div class="card-body">
@@ -225,7 +226,7 @@
 
       <section class="reservation">
         <div class="infos">
-          <p class="eyebrow">Réservation immédiate</p>
+          <p class="resa-eyebrow">Réservation immédiate</p>
           <h2>Réservez votre place d'atelier</h2>
           <p>
             Validez votre créneau en direct. Aucun paiement débité immédiatement
@@ -362,75 +363,65 @@
     </main>
 
     <footer>
-      <div class="footer_section">
-        <div class="footer_first_div">
-          <a href=""
-            ><img
-              src="assets/icons/Logo EcoArt.png"
-              alt="Logo EcoArt"
-            />EcoArt</a
-          >
-          <p>
-            Plateforme d'artisanat circulaire valorisant les rebuts nobles.
-            Conception numérique sobre, traçabilité certifiée et réduction de
-            l'empreinte carbone matériel.
-          </p>
-          <p class="footer_icon">
-            <img src="assets/icons/Icon-10.png" alt="" />
-            <span>Index Éco-Index : A</span>
-          </p>
+        <div class="footer_section">
+            <div class="footer_first_div">
+                <a href=""><img src="assets/icons/Logo EcoArt.png" alt="Logo EcoArt">EcoArt</a>
+                <p>Plateforme d'artisanat circulaire valorisant
+                    les rebuts nobles. Conception numérique
+                    sobre, traçabilité certifiée et réduction de
+                    l'empreinte carbone matériel.
+                </p>
+                <p class="footer_icon"><img src="assets/icons/Icon-10.png" alt=""><span>Index Éco-Index : A</span></p>
+            </div>
+            <div class="footer_second_div">
+                <h2>Filière Circulaire</h2>
+                <div>
+                    <a href="#">Bois de réemploi & chêne sauvé</a>
+                    <a href="#">Verre recyclé au four solaire</a>
+                    <a href="#">Textiles surcyclés d'ateliers</a>
+                    <a href="#">Métaux ferreux reconditionnés</a>
+                    <a href="#">Charte zéro déchet d'atelier</a>
+                </div>
+            </div>
+            <div class="footer_third_div">
+                <h2>Labels & Certifications</h2>
+                <div>
+                    <h4>Label Upcycling Certifié UE</h3>
+                    <p>Norme traçabilité matière brute à 100%</p>
+                </div>
+                <div>
+                    <h4>Garantie Artisans d'Art</h3>
+                    <p>Transmission et fabrication locale</p>
+                </div>
+            </div>
+            <div class="footer_forth_div">
+                <h2>Newsletter Sobre</h2>
+                <p>Une seule édition mensuelle, sans scripts
+                    lourds ni pistage publicitaire.
+                </p>
+                <div class="input_div">
+                    <input type="text" class="footer_input" placeholder="votre.email@domaine.fr">
+                    <button type="submit" class="footer_submit">S'inscrire</button>
+                </div>
+                <p>Désinscription en 1 clic. Données hébergées
+                    en France.
+                </p>
+            </div>
         </div>
-        <div class="footer_second_div">
-          <h2>Filière Circulaire</h2>
-          <div>
-            <a href="#">Bois de réemploi & chêne sauvé</a>
-            <a href="#">Verre recyclé au four solaire</a>
-            <a href="#">Textiles surcyclés d'ateliers</a>
-            <a href="#">Métaux ferreux reconditionnés</a>
-            <a href="#">Charte zéro déchet d'atelier</a>
-          </div>
-        </div>
-        <div class="footer_third_div">
-          <h2>Labels & Certifications</h2>
-          <div>
-            <h3>Label Upcycling Certifié UE</h3>
-            <p>Norme traçabilité matière brute à 100%</p>
-          </div>
-          <div>
-            <h3>Garantie Artisans d'Art</h3>
-            <p>Transmission et fabrication locale</p>
-          </div>
-        </div>
-        <div class="footer_forth_div">
-          <h2>Newsletter Sobre</h2>
-          <p>
-            Une seule édition mensuelle, sans scripts lourds ni pistage
-            publicitaire.
-          </p>
-          <div class="input_div">
-            <input
-              type="text"
-              class="footer_input"
-              placeholder="votre.email@domaine.fr"
-            />
-            <button type="submit" class="footer_submit">S'inscrire</button>
-          </div>
-          <p>Désinscription en 1 clic. Données hébergées en France.</p>
-        </div>
-      </div>
 
-      <div class="footer_info">
-        <div>
-          <p>© 2025 EcoArt (NextLine client). Tous droits réservés.</p>
-          <p>Hébergement vert basse consommation</p>
-          <p>Tél : +33 (0)1 89 45 20 10</p>
+
+        <div class="footer_info">
+            <div>
+                <p>© 2025 EcoArt (NextLine client). Tous droits réservés.</p>
+                <p>Hébergement vert basse consommation</p>
+                <p>Tél : +33 (0)1 89 45 20 10</p>
+            </div>
+            <div>
+                <p>Mentions Légales</p>
+                <p>Accessibilité : Conforme RGAA</p>
+                <p>Charte Éco-conception</p>
+            </div>
         </div>
-        <div>
-          <p>Mentions Légales</p>
-          <p>Accessibilité : Conforme RGAA</p>
-          <p>Charte Éco-conception</p>
-        </div>
-      </div>
     </footer>
   </body>
 </html>
