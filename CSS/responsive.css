@@ -61,6 +61,7 @@
 
 /* Tablette */
 @media (min-width: 768px) and (max-width: 1023px) {
+/* =================  Footer =============== */
 .hero-area { grid-template-columns: 1fr; gap: 36px; padding: 72px 20px 40px; }
 .h1-hero { font-size: clamp(32px, 8vw, 42px); line-height: 1.2; margin: 18px 0 14px; }
 .hero-p { font-size: 15px; line-height: 1.7; }
@@ -84,9 +85,100 @@
         display: flex;
         flex-direction: column;
     }
+/* ========================================= */
 }
 
 /*  Ordinateur portable */
 @media (min-width: 1024px) and (max-width: 1279px) {
 }
 
+
+/*
+   11. TABLETTE : 768px ET PLUS
+ */
+
+@media (min-width: 768px) {
+
+    .artisans-main {
+        padding: 40px 24px;
+    }
+
+    .artisans-intro-container {
+        grid-template-columns: 1.5fr 1fr;
+        align-items: start;
+    }
+
+    .intro h1 {
+        font-size: 44px;
+    }
+
+    .artisans-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .artisan-card {
+        padding: 24px;
+    }
+
+    .artisans-location {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        padding: 32px;
+    }
+
+}
+
+
+/* 
+   12. ORDINATEUR : 1024px ET PLUS
+ */
+
+@media (min-width: 1024px) {
+
+    .artisans-main {
+        padding: 48px 32px;
+    }
+
+    .intro h1 {
+        font-size: 52px;
+    }
+
+    .artisans-intro-container {
+        grid-template-columns: 1.6fr 1fr;
+        gap: 48px;
+    }
+
+    .artisan-gallery img {
+        height: 130px;
+    }
+
+    .artisans-grid {
+        gap: 32px;
+    }
+
+    .artisans-location {
+        gap: 48px;
+    }
+
+}
+
+
+/*
+ GRAND ÉCRAN : 1280px ET PLUS
+ */
+
+@media (min-width: 1280px) {
+
+    .artisans-main {
+        padding: 56px 32px;
+    }
+
+    .intro h1 {
+        font-size: 58px;
+    }
+
+    .artisan-gallery img {
+        height: 150px;
+    }
+
+}
