@@ -1,52 +1,565 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Nos Artisans | EcoArt</title>
+
     <link rel="stylesheet" href="CSS/variables.css">
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/variables.css">
-    <link rel="stylesheet" href="CSS/responsive.css">
+    <link rel="stylesheet" href="CSS/artisans.css">
 
 </head>
+
 <body>
-    <!-----------------  NavBar Section   ----------------------------->
+ 
+    <!-- ================= HEADER ET NAVBAR ================= -->
+
     <header>
-        <nav class="nav_bar">
-            <a href="index.html"><img src="/assets/icons/Logo EcoArt.png" alt="Logo EcoArt">EcoArt</a>
+
+        <nav class="nav_bar" aria-label="Navigation principale">
+
+            <a href="index.html">
+                <img src="assets/icons/Logo EcoArt.png" alt="Logo EcoArt">
+                EcoArt
+            </a>
+
             <ul>
                 <li><a href="index.html">Accueil</a></li>
+
                 <li><a href="produits.html">Catalogue</a></li>
+
                 <li><a href="services.html">Ateliers & Services</a></li>
-                <li><a href="#" class="active">Nos Artisans</a></li>
-                <li><a href="impact.html">Impact & Contact </a></li>
+
+                <li>
+                    <a href="artisans.html" class="active" aria-current="page">
+                        Nos Artisans
+                    </a>
+                </li>
+
+                <li><a href="impact.html">Impact & Contact</a></li>
             </ul>
+
         </nav>
+
     </header>
 
-    <!------------------   Main section   ----------------------------->
-    <main class="main_section">
 
-<title>Hello</title>
+    <!-- ================= MAIN ================= -->
+
+    <main class="artisans-main">
+
+        <!-- ================= INTRODUCTION ================= -->
+
+        <div class="artisans-intro-container">
+
+            <section class="intro">
+
+                <p class="artisans-label">
+                    ARTISANS LOCAUX & CIRCULAIRES
+                </p>
+
+                <h1>Les Mains derrière les Matières</h1>
+
+                <p>
+                    Découvrez les éco-artisans du réseau EcoArt.
+                    Chaque geste réinvente l'usage des matériaux
+                    récupérés et donne une seconde vie aux matières.
+                </p>
+
+            </section>
+
+
+            <!-- ================= STATISTIQUES ================= -->
+
+            <section class="artisans-stats">
+
+                <h2>Notre philosophie</h2>
+
+                <p>
+                    Nos artisans associent savoir-faire traditionnel
+                    et matières revalorisées pour créer des objets durables.
+                </p>
+
+                <div class="stats-container">
+
+                    <div class="stat">
+                        <h3>84 %</h3>
+                        <p>Matières revalorisées</p>
+                    </div>
+
+                    <div class="stat">
+                        <h3>4,9/5</h3>
+                        <p>Avis des clients</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+
+        <!-- ================= CATÉGORIES ================= -->
+
+        <nav class="artisans-categories" aria-label="Catégories d'artisans">
+
+            <a href="#artisans" class="active">Tous les artisans</a>
+
+            <a href="#antoine">Bois & mobilier</a>
+
+            <a href="#claire">Verre & lumière</a>
+
+            <a href="#fatou">Textile & décoration</a>
+
+            <a href="#marc">Design & objets</a>
+
+        </nav>
+
+
+
+        <section class="artisans-section" id="artisans">
+
+            <h2>Découvrez nos artisans</h2>
+
+            <div class="artisans-grid">
+
+
+                <!-- ================= ANTOINE MERCIER ================= -->
+
+                <article class="artisan-card" id="antoine">
+
+                    <div class="artisan-heading">
+
+                        <img
+                            src="assets/pictures/Antoine Mercier.png"
+                            alt="Portrait d'Antoine Mercier"
+                            class="artisan-portrait"
+                        >
+
+                        <div class="artisan-info">
+
+                            <p>MAÎTRE ARTISAN • BOIS RECYCLÉ</p>
+
+                            <h3>Antoine Mercier</h3>
+
+                            <p>Ébéniste et créateur de mobilier</p>
+
+                        </div>
+
+                    </div>
+
+                    <p class="artisan-description">
+                        Chaque pièce de mobilier raconte une histoire.
+                        Antoine transforme les bois récupérés en objets uniques
+                        où se rencontrent savoir-faire traditionnel et durabilité.
+                    </p>
+
+                    <div class="artisan-details">
+
+                        <span>♻ Bois de réemploi</span>
+
+                        <span>Fabrication locale</span>
+
+                    </div>
+
+                    <h4>Quelques réalisations récentes</h4>
+
+                    <div class="artisan-gallery">
+
+                        <figure>
+                            <img
+                                src="assets/pictures/image_31.png"
+                                alt="Meuble en bois recyclé"
+                                loading="lazy"
+                            >
+                            <figcaption>Mobilier recyclé</figcaption>
+                        </figure>
+
+                        <figure>
+                            <img
+                                src="assets/pictures/image_14.png"
+                                alt="Console artisanale en bois"
+                                loading="lazy"
+                            >
+                            <figcaption>Console artisanale</figcaption>
+                        </figure>
+
+                        <figure>
+                            <img
+                                src="assets/pictures/image_16.png"
+                                alt="Objets décoratifs en bois"
+                                loading="lazy"
+                            >
+                            <figcaption>Décoration en bois</figcaption>
+                        </figure>
+
+                    </div>
+
+                    <div class="artisan-actions">
+
+                        <a href="produits.html">
+                            Explorer ses créations →
+                        </a>
+
+                        <a href="services.html" class="artisan-button">
+                            Découvrir les ateliers
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ================= CLAIRE DUPUIS ================= -->
+
+                <article class="artisan-card" id="claire">
+
+                    <div class="artisan-heading">
+
+                        <img
+                            src="assets/pictures/image_22.png"
+                            alt="Portrait de Claire Dupuis"
+                            class="artisan-portrait"
+                        >
+
+                        <div class="artisan-info">
+
+                            <p>MAÎTRE ARTISAN • VERRE RECYCLÉ</p>
+
+                            <h3>Claire Dupuis</h3>
+
+                            <p>Créatrice d'objets en verre</p>
+
+                        </div>
+
+                    </div>
+
+                    <p class="artisan-description">
+                        Claire redonne vie aux bouteilles et aux flacons
+                        pour créer des pièces de décoration,
+                        de l'art de la table et des luminaires singuliers.
+                    </p>
+
+                    <div class="artisan-details">
+
+                        <span>♻ Verre recyclé</span>
+
+                        <span>Création artisanale</span>
+
+                    </div>
+
+                    <h4>Quelques réalisations récentes</h4>
+
+                    <div class="artisan-gallery">
+
+                        <figure>
+                            <img
+                                src="assets/pictures/image_25.png"
+                                alt="Objets en verre recyclé"
+                                loading="lazy"
+                            >
+                            <figcaption>Verrerie artisanale</figcaption>
+                        </figure>
+
+                        <figure>
+                            <img
+                                src="assets/pictures/image_5.png"
+                                alt="Verres colorés recyclés"
+                                loading="lazy"
+                            >
+                            <figcaption>Verres colorés</figcaption>
+                        </figure>
+
+                        <figure>
+                            <img
+                                src="assets/pictures/image_34.png"
+                                alt="Luminaire artisanal en verre"
+                                loading="lazy"
+                            >
+                            <figcaption>Luminaire recyclé</figcaption>
+                        </figure>
+
+                    </div>
+
+                    <div class="artisan-actions">
+
+                        <a href="produits.html">
+                            Explorer ses créations →
+                        </a>
+
+                        <a href="services.html" class="artisan-button">
+                            Découvrir les ateliers
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ================= FATOU DIALLO ================= -->
+
+                <article class="artisan-card" id="fatou">
+
+                    <div class="artisan-heading">
+
+                        <img
+                            src="assets/pictures/image_17.png"
+                            alt="Portrait de Fatou Diallo"
+                            class="artisan-portrait"
+                        >
+
+                        <div class="artisan-info">
+
+                            <p>MAÎTRE ARTISAN • TEXTILE RECYCLÉ</p>
+
+                            <h3>Fatou Diallo</h3>
+
+                            <p>Créatrice textile et décoration</p>
+
+                        </div>
+
+                    </div>
+
+                    <p class="artisan-description">
+                        Fatou transforme des tissus récupérés
+                        en accessoires et objets décoratifs uniques.
+                        Son travail met en valeur les matières
+                        et les techniques de confection artisanale.
+                    </p>
+
+                    <div class="artisan-details">
+
+                        <span>♻ Textile surcyclé</span>
+
+                        <span>Couture responsable</span>
+
+                    </div>
+
+                    <h4>Quelques réalisations récentes</h4>
+
+                    <div class="artisan-gallery">
+
+                        <figure>
+                            <img
+                                src="assets/pictures/image_26.png"
+                                alt="Création textile recyclée"
+                                loading="lazy"
+                            >
+                            <figcaption>Création textile</figcaption>
+                        </figure>
+
+                        <figure>
+                            <img
+                                src="assets/pictures/image_13.png"
+                                alt="Panier fabriqué artisanalement"
+                                loading="lazy"
+                            >
+                            <figcaption>Panier artisanal</figcaption>
+                        </figure>
+
+                        <figure>
+                            <img
+                                src="assets/pictures/image_7.png"
+                                alt="Décoration en textile"
+                                loading="lazy"
+                            >
+                            <figcaption>Décoration textile</figcaption>
+                        </figure>
+
+                    </div>
+
+                    <div class="artisan-actions">
+
+                        <a href="produits.html">
+                            Explorer ses créations →
+                        </a>
+
+                        <a href="services.html" class="artisan-button">
+                            Découvrir les ateliers
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ================= MARC LEROUX ================= -->
+
+                <article class="artisan-card" id="marc">
+
+                    <div class="artisan-heading">
+
+                        <img
+                            src="assets/pictures/image_37.png"
+                            alt="Portrait de Marc Leroux"
+                            class="artisan-portrait"
+                        >
+
+                        <div class="artisan-info">
+
+                            <p>MAÎTRE ARTISAN • DESIGN DURABLE</p>
+
+                            <h3>Marc Leroux</h3>
+
+                            <p>Designer d'objets écoresponsables</p>
+
+                        </div>
+
+                    </div>
+
+                    <p class="artisan-description">
+                        Marc imagine des objets du quotidien
+                        à partir de matériaux revalorisés.
+                        Son approche associe design contemporain,
+                        créativité et engagement écologique.
+                    </p>
+
+                    <div class="artisan-details">
+
+                        <span> Matières récupérées</span>
+
+                        <span>Design circulaire</span>
+
+                    </div>
+
+                    <h4>Quelques réalisations récentes</h4>
+
+                    <div class="artisan-gallery">
+
+                        <figure>
+                            <img
+                                src="assets/pictures/image_2.png"
+                                alt="Mobilier écoresponsable"
+                                loading="lazy"
+                            >
+                            <figcaption>Mobilier durable</figcaption>
+                        </figure>
+
+                        <figure>
+                            <img
+                                src="assets/pictures/image_28.png"
+                                alt="Objet design contemporain"
+                                loading="lazy"
+                            >
+                            <figcaption>Objet design</figcaption>
+                        </figure>
+
+                        <figure>
+                            <img
+                                src="assets/pictures/image_7.png"
+                                alt="Décoration écoresponsable"
+                                loading="lazy"
+                            >
+                            <figcaption>Décoration durable</figcaption>
+                        </figure>
+
+                    </div>
+
+                    <div class="artisan-actions">
+
+                        <a href="produits.html">
+                            Explorer ses créations →
+                        </a>
+
+                        <a href="services.html" class="artisan-button">
+                            Découvrir les ateliers
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CIRCUITS COURTS ================= -->
+
+        <section class="artisans-location">
+
+            <div class="location-content">
+
+                <p class="artisans-label">
+                    PROXIMITÉ & CIRCUITS COURTS
+                </p>
+
+                <h2>Une cartographie de circuits très courts</h2>
+
+                <p>
+                    EcoArt favorise les circuits courts
+                    en collaborant avec des artisans locaux.
+                    Notre objectif est de réduire les distances
+                    de transport et de valoriser les ressources locales.
+                </p>
+
+                <div class="location-stats">
+
+                    <div>
+                        <h3>24</h3>
+                        <p>Artisans partenaires</p>
+                    </div>
+
+                    <div>
+                        <h3>100 %</h3>
+                        <p>Engagement local</p>
+                    </div>
+
+                    <div>
+                        <h3>92 km</h3>
+                        <p>Distance moyenne</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="location-map">
+
+                <p>Carte du réseau des artisans EcoArt</p>
+
+            </div>
+
+        </section>
+
     </main>
-    <!----------------------  End Main   ------------------------------>
 
 
-    <!-------------------    Footer Section   ------------------------->
+    <!-- ================= FOOTER ================= -->
+
     <footer>
+
         <div class="footer_section">
+
             <div class="footer_first_div">
-                <a href=""><img src="/assets/icons/Logo EcoArt.png" alt="Logo EcoArt">EcoArt</a>
-                <p>Plateforme d'artisanat circulaire valorisant
-                    les rebuts nobles. Conception numérique
-                    sobre, traçabilité certifiée et réduction de
+
+                <a href="index.html">
+                    <img src="assets/icons/Logo EcoArt.png" alt="Logo EcoArt">
+                    EcoArt
+                </a>
+
+                <p>
+                    Plateforme d'artisanat circulaire valorisant
+                    les rebuts nobles. Conception numérique sobre,
+                    traçabilité certifiée et réduction de
                     l'empreinte carbone matériel.
                 </p>
-                <p class="footer_icon"><img src="assets/icons/Icon-10.png" alt=""><span>Index Éco-Index : A</span></p>
+
+                <p class="footer_icon">
+                    <img src="assets/icons/Icon-10.png" alt="">
+                    <span>Index Éco-Index : A</span>
+                </p>
+
             </div>
+
+
             <div class="footer_second_div">
+
                 <h2>Filière Circulaire</h2>
+
                 <div>
                     <a href="#">Bois de réemploi & chêne sauvé</a>
                     <a href="#">Verre recyclé au four solaire</a>
@@ -54,46 +567,78 @@
                     <a href="#">Métaux ferreux reconditionnés</a>
                     <a href="#">Charte zéro déchet d'atelier</a>
                 </div>
+
             </div>
+
+
             <div class="footer_third_div">
+
                 <h2>Labels & Certifications</h2>
+
                 <div>
-                    <h4>Label Upcycling Certifié UE</h3>
+                    <h3>Label Upcycling Certifié UE</h3>
                     <p>Norme traçabilité matière brute à 100%</p>
                 </div>
+
                 <div>
-                    <h4>Garantie Artisans d'Art</h3>
+                    <h3>Garantie Artisans d'Art</h3>
                     <p>Transmission et fabrication locale</p>
                 </div>
+
             </div>
+
+
             <div class="footer_forth_div">
+
                 <h2>Newsletter Sobre</h2>
-                <p>Une seule édition mensuelle, sans scripts
-                    lourds ni pistage publicitaire.
+
+                <p>
+                    Une seule édition mensuelle,
+                    sans scripts lourds ni pistage publicitaire.
                 </p>
+
                 <div class="input_div">
-                    <input type="text" class="footer_input" placeholder="votre.email@domaine.fr">
-                    <button type="submit" class="footer_submit">S'inscrire</button>
+
+                    <input
+                        type="email"
+                        class="footer_input"
+                        placeholder="votre.email@domaine.fr"
+                        aria-label="Votre adresse e-mail"
+                    >
+
+                    <button type="button" class="footer_submit">
+                        S'inscrire
+                    </button>
+
                 </div>
-                <p>Désinscription en 1 clic. Données hébergées
-                    en France.
+
+                <p>
+                    Désinscription en 1 clic.
+                    Données hébergées en France.
                 </p>
+
             </div>
+
         </div>
 
 
         <div class="footer_info">
+
             <div>
-                <p>© 2025 EcoArt (NextLine client). Tous droits réservés.</p>
+                <p>© 2025 EcoArt. Tous droits réservés.</p>
                 <p>Hébergement vert basse consommation</p>
                 <p>Tél : +33 (0)1 89 45 20 10</p>
             </div>
+
             <div>
-                <p>Mentions Légales</p>
-                <p>Accessibilité : Conforme RGAA</p>
+                <p>Mentions légales</p>
+                <p>Accessibilité</p>
                 <p>Charte Éco-conception</p>
             </div>
+
         </div>
+
     </footer>
+
 </body>
 </html>
