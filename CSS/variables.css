@@ -11,6 +11,7 @@
   --color-left-badge:#E9F3EB;
   --color-left-badge-icon: #B5F0CA;
   --color-small-nav: #E6F0E8;
+  --color-hero-card: #ECF6EE;
   /* ---------- Fonds ---------- */
   --page-bg: #f1fbf2;
   --color-bg: #F0F9F1;             /* fond general de la page */
@@ -45,6 +46,7 @@
   --text-2xl: 2.25rem;   /* 36px : titre H1 mobile */
   --text-3xl: 2.75rem;   /* 44px : gros chiffres (impact) */
   --text-4xl: 3.5rem;  /* 56px */
+  --text-title-hero: 4rem;  /* title hero */
 
   --weight-regular: 400;
   --weight-medium: 500;
