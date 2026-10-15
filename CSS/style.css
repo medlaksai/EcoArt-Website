@@ -906,7 +906,7 @@ h2 {
     padding: var(--space-5);
   }
 }
-@media (max-width: 520px) {
+@media (max-width: 767px) {
   .page-shell {
     width: calc(100% - 24px);
     padding: var(--space-6) 0;
