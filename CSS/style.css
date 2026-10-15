@@ -89,8 +89,8 @@ body{
   width: 100%;
   height: fit-content;
   display: flex;
-  padding: 0 var(--space-5);
-  background-color: rgb(239, 144, 144);
+  padding: var(--space-4) var(--space-5);
+  background-color: var(--color-bg);
 }
 .catalog_title{
   width: 65%;
@@ -98,16 +98,129 @@ body{
 .catalog_title h4{
   display: flex;
   align-items: center;
+  color: var(--color-brown);
 }
 .catalog_title h4 div{
-  width: var(--space-1);
-  height: var(--space-1);
-  /* padding: 10px; */
+  width: var(--space-3);
+  height: var(--space-3);
   background-color: var(--color-brown);
+  border-radius: 50%;
+  margin: var(--space-1)
 }
 .catalog_title h1{
-  font-size: var(--text-4xl);
+  font-size: var(--text-title-hero);
+  padding-right: var(--space-7);
 }
+.catalog_title p{
+  color: var(--color-textp);
+  font-size: var(--text-base);
+}
+.section_2_hero{
+  width: 35%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.section_2_hero_div{
+  display: flex;
+  background-color: var(--color-hero-card);
+  border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-6);
+  gap: var(--space-8);
+}
+.section_2_hero_div div h1 {
+  font-size: var(--text-3xl);
+}
+.section_2_hero_div div h3 {
+  font-size: var(--text-sm);
+}
+.section_2_hero_div div h1 span {
+  font-size: var(--text-sm);
+}
+.sort_section{
+  background-color: var(--color-white);
+}
+.search_bar{
+  width: 100%;
+  display: grid;
+  grid-template-columns:  auto auto auto;
+  padding: var(--space-5);
+}
+.search_bar div {
+  display: flex; 
+  justify-content: center;
+}
+.search_container{
+  display: flex;
+  align-items: center;
+  background-color: var(--color-hero-card);
+  padding: var(--space-3) var(--space-6);
+  border-radius: var(--radius-sm);
+  gap: var(--space-2);
+}
+.search_icon{
+  width: var(--space-4);
+  height: var(--space-4);
+  
+}
+.search_container input {
+  border: none;
+  background-color: var(--color-hero-card);
+}
+.search_container input:focus {
+  border: none;
+}
+.search_midle{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-5);
+  background-color: red;
+}
+.search_midle div{
+  display: flex;
+  gap: var(--space-5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ========================================= */
 footer{
   display: flex;
