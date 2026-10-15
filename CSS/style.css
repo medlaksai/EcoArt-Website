@@ -1103,19 +1103,119 @@ h2 {
 .stat strong { display: block; font-size: 18px; color: var(--forest); line-height: 1.2; }
 .stat span { font-size: 11px; line-height: 1.3; color: var(--text); display: block; }
 
-.statss { max-width: 1128px; margin: 0 auto; padding: 40px 24px; }
-.statss-card { display: grid; grid-template-columns: repeat(3, 1fr); align-items: center; background: var(--card-bg); border-radius: 12px; box-shadow: 0 2px 6px rgba(20, 64, 44, .08); padding: 48px 0; }
+.statss { max-width: 1400px; margin: 0 auto; padding: 40px 24px; }
+.statss-card { display: grid; grid-template-columns: repeat(3, 1fr); align-items: center; background: var(--color-small-nav); border-radius: 12px; box-shadow: 0 2px 6px rgba(20, 64, 44, .08); padding: 40px 0; }
 .statt-item { display: flex; align-items: center; gap: 16px; padding: 0 32px; height: 100%; }
 .statt-item + .stat-item { border-left: 1px solid var(--divider); }
 .statt-item:first-child { padding-left: 40px; }
 .statt-icon { flex: none; width: 56px; height: 56px; display: grid; place-items: center; background: var(--icon-bg); border-radius: 8px; }
 .statt-icon img { width: 28.04px; height: 28px; }
-.statt-icon--forest { color: var(--forest); }
-.statt-icon--clay { color: var(--clay); }
-.statt-icon--green { color: var(--green); }
+.statt-icon--1 { color: var(--forest); }
+.statt-icon--2 { color: var(--clay); }
+.statt-icon--3 { color: var(--green); }
 .statt-number { font-size: 48px; font-weight: 700; line-height: 1; letter-spacing: -.02em; margin-bottom: 8px; }
-.statt-number--forest { color: var(--forest); }
-.statt-number--clay { color: var(--clay); }
-.statt-number--green { color: var(--green); }
-.statt-title { font-size: 20px; font-weight: 500; line-height: 1.4; color: var(--title); }
+.statt-number--1 { color: var(--forest); }
+.statt-number--2 { color: var(--color-green-dark); }
+.statt-number--3 { color: #2D5A43; }
+.statt-title { font-size: 20px; font-weight: 500; line-height: 1.4; color: var(--text-font); }
 .statt-desc { font-size: 14px; line-height: 1.45; margin-top: 0.5px; }
+/** After Stats **/
+.filieres {max-width: 1400px; margin: 0 auto; padding: 48px 24px 64px;}
+.filieres-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 48px;
+  margin-bottom: 48px;
+}
+.eyebrow {
+  color: var(--color-btn-home);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.h2-after-p {color: var(--color-btn-home);}
+.filieres-header h2 {
+  font-size: 36px;
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: -.01em;
+  color: var(--forest);
+}
+.filieres-intro {
+  max-width: 450px;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.filieres-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  align-items: start;         
+}
+
+
+.fcard {
+  display: flex;
+  flex-direction: column;
+  background: #ECF6EE;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(20, 64, 44, .06);
+}
+.fcard-body { padding: 24px 24px 28px; }
+.fcard img {
+  display: block;
+  width: 100%;
+  height: 217px;
+  object-fit: cover;
+}
+
+.fcard-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  height: 22px;
+  padding: 0 10px 0 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: .06em;
+  color: #fff;
+  white-space: nowrap;
+}
+.pill svg { width: 13px; height: 13px; flex: none; }
+.pill--forest { background: #2a5e45; }
+.pill--clay   { background: var(--color-btn-home2); }
+.pill--green  { background: #235B3E; }
+.pill--salmon { background: #FD9D80; color: var(--ink); }
+
+.gisement {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: .06em;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.fcard h3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--ink);
+  margin-bottom: 8px;
+}
+.fcard p {
+  font-size: 14px;
+  line-height: 1.45;
+}
