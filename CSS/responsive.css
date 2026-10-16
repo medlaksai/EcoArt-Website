@@ -350,15 +350,58 @@
         display: flex;
         flex-direction: column;
     }
+/* ========================================= */
 }
+
+/*  Ordinateur portable */
+@media (min-width: 1024px) and (max-width: 1279px) {
+}
+
+
+/*
+   11. TABLETTE : 768px ET PLUS
+ */
+
+@media (min-width: 768px) {
+
+    .artisans-main {
+        padding: 40px 24px;
+    }
+
+    .artisans-intro-container {
+        grid-template-columns: 1.5fr 1fr;
+        align-items: start;
+    }
+
+    .intro h1 {
+        font-size: 44px;
+    }
+
+    .artisans-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .artisan-card {
+        padding: 24px;
+    }
+
+    .artisans-location {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        padding: 32px;
+    }
+
+}
+
+
+/* 
+   12. ORDINATEUR : 1024px ET PLUS
+ */
+
 @media (min-width: 1024px) {
 
     .artisans-main {
         padding: 48px 32px;
-    }
-
-    .intro h1 {
-        font-size: 52px;
     }
 
     .artisans-intro-container {
@@ -366,28 +409,93 @@
         gap: 48px;
     }
 
+    .intro h1 {
+        font-size: 52px;
+    }
+
+    .artisans-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 32px;
+    }
+
+    .artisan-card {
+        padding: 24px;
+    }
+
     .artisan-gallery img {
         height: 130px;
     }
 
-    .artisans-grid {
-        gap: 32px;
-    }
-
     .artisans-location {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        padding: 32px;
         gap: 48px;
     }
 
 }
 
+
+/*
+ GRAND ÉCRAN : 1280px ET PLUS
+ */
+
 @media (min-width: 1280px) {
+     .artisans-main {
+        width: calc(100% - 64px);
+        padding-top: 40px;
+    }
+
+    .artisans-intro-container {
+        grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr);
+        gap: 32px;
+    }
+
+    .artisans-main .intro h1 {
+        font-size: 52px;
+    }
+
+    .artisans-main .artisans-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .artisans-main .artisan-card {
+        padding: 24px;
+    }
+
+    .artisan-badge {
+        display: inline-flex;
+    }
+
+    .artisans-main .artisan-gallery img {
+        height: 150px;
+    }
+
+    .artisans-main .artisans-location {
+        grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+        padding: 32px;
+    }
 
     .artisans-main {
         padding: 56px 32px;
     }
 
+    .artisans-intro-container {
+        grid-template-columns: 1.6fr 1fr;
+        gap: 48px;
+    }
+
     .intro h1 {
         font-size: 58px;
+    }
+
+    .artisans-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 32px;
+    }
+
+    .artisan-card {
+        padding: 24px;
     }
 
     .artisan-gallery img {
@@ -395,14 +503,3 @@
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-/* media  */
