@@ -25,11 +25,7 @@
         font-weight: 600;
     }
 
-    .nav_bar ul li a.active {
-        background-color: var(--color-green);
-        color: var(--color-active);
-        border-radius: var(--radius-sm);
-    }
+
 
     .main_hero_catalog {
         flex-direction: row;
@@ -1041,6 +1037,7 @@
     .footer_info {
         display: flex;
         flex-direction: column;
+        /* font-size: var(--text-3xl); */
     }
 /* ========================================= */
 }
@@ -1097,8 +1094,8 @@
     }
 
     .artisans-intro-container {
-        grid-template-columns: 1.6fr 1fr;
-        gap: 48px;
+        grid-template-columns: 1.5fr 1fr;
+        align-items: start;
     }
 
     .intro h1 {
