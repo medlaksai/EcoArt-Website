@@ -26,11 +26,7 @@
         font-weight: 600;
     }
 
-    .nav_bar ul li a.active {
-        background-color: var(--color-green);
-        color: var(--color-active);
-        border-radius: var(--radius-sm);
-    }
+
 
     .main_hero_catalog {
         flex-direction: row;
@@ -144,44 +140,7 @@
 
 
 @media (max-width: 767px) {
-    .artisans-main {
-        padding: 40px 24px;
-    }
-
-    .artisans-intro-container {
-        grid-template-columns: 1.5fr 1fr;
-        align-items: start;
-    }
-
-    .intro h1 {
-        font-size: 44px;
-    }
-
-    .artisans-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .artisan-card {
-        padding: 24px;
-    }
-
-    .artisans-location {
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-        padding: 32px;
-    }
-
-    .products_grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .features_section {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .footer_section {
-        grid-template-columns: repeat(2, 1fr);
-    }
+   
  .hero-area { grid-template-columns: 1fr; gap: 36px; padding: 72px 20px 40px;}
   .h1-hero {font-size: clamp(32px, 8vw, 42px); line-height: 1.2; margin: 18px 0 14px;}
   .hero-p {font-size: 15px; line-height: 1.7;}
@@ -342,56 +301,56 @@
 .stat { left: 12px; bottom: 12px; max-width: 180px; padding: 12px; gap: 10px; }
 .stat strong { font-size: 16px; }
 .hero-container { grid-template-columns: 1fr; gap: 56px; padding: 64px 32px 72px; }
+    
+
+
+
+
+
+
+/* ================================================================= */
     .footer_section{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
         gap: var(--space-5) 0;
     }
     .footer_info{
         display: flex;
         flex-direction: column;
+        /* font-size: var(--text-3xl); */
     }
-}
-@media (min-width: 1024px) {
-
     .artisans-main {
-        padding: 48px 32px;
-    }
-
-    .intro h1 {
-        font-size: 52px;
+        padding: 40px 24px;
     }
 
     .artisans-intro-container {
-        grid-template-columns: 1.6fr 1fr;
-        gap: 48px;
-    }
-
-    .artisan-gallery img {
-        height: 130px;
-    }
-
-    .artisans-grid {
-        gap: 32px;
-    }
-
-    .artisans-location {
-        gap: 48px;
-    }
-
-}
-
-@media (min-width: 1280px) {
-
-    .artisans-main {
-        padding: 56px 32px;
+        grid-template-columns: 1.5fr 1fr;
+        align-items: start;
     }
 
     .intro h1 {
-        font-size: 58px;
+        font-size: 44px;
     }
 
-    .artisan-gallery img {
-        height: 150px;
+    .artisans-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .artisan-card {
+        padding: 24px;
+    }
+
+    .artisans-location {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        padding: 32px;
+    }
+
+    .products_grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .features_section {
+        grid-template-columns: repeat(2, 1fr);
     }
 
 }
