@@ -1,4 +1,162 @@
 /* Mobile */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .products_grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .features_section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer_section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1025px) {
+    .menu-icon {
+        display: none;
+    }
+
+    .nav_bar ul {
+        display: flex;
+    }
+
+    .nav_bar .menu_list {
+        display: flex;
+        position: static;
+        flex-direction: row;
+        width: auto;
+        background-color: transparent;
+        box-shadow: none;
+        padding: 0;
+        gap: var(--space-1);
+    }
+
+    .nav_bar ul li a {
+        text-decoration: none;
+        color: var(--color-textp);
+        font-size: var(--text-sm);
+        font-weight: 600;
+    }
+
+    .nav_bar ul li a.active {
+        background-color: var(--color-green);
+        color: var(--color-active);
+        border-radius: var(--radius-sm);
+    }
+
+    .main_hero_catalog {
+        flex-direction: row;
+    }
+
+    .small_nav div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .catalog_title {
+        width: 65%;
+    }
+
+    .section_2_hero_div div h1 {
+        font-size: var(--text-3xl);
+    }
+
+    .section_2_hero_div div h3 {
+        font-size: var(--text-sm);
+    }
+
+    .section_2_hero_div div h1 span {
+        font-size: var(--text-sm);
+    }
+
+    .catalog_title h1 {
+        font-size: var(--text-title-hero);
+        padding-right: 0;
+    }
+
+    .section_2_hero {
+        width: 35%;
+        align-items: end;
+        margin-top: 0;
+    }
+
+    .search_bar {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .search_container {
+        width: auto;
+    }
+
+    .search_container input {
+        width: auto;
+    }
+
+    .filter_tags {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        gap: var(--space-7);
+    }
+    .filter_tags p {
+        margin: 0;
+        align-items: center;
+    }
+    .tags_container {
+        flex-wrap: nowrap;
+    }
+
+    .count_info {
+        margin-left: auto;
+    }
+
+    .products_grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .pagination_section {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .features_section {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer_section {
+        grid-template-columns: 2fr 1.5fr 1.5fr 2fr;
+        gap: var(--space-6);
+    }
+
+    .footer_third_div {
+        padding-right: var(--space-8);
+    }
+
+    .footer_first_div p {
+        padding: var(--space-1) var(--space-8) 0 0;
+    }
+
+    .footer_info {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .input_div {
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
 @media (max-width: 767px) {
  .hero-area { grid-template-columns: 1fr; gap: 36px; padding: 72px 20px 40px;}
   .h1-hero {font-size: clamp(32px, 8vw, 42px); line-height: 1.2; margin: 18px 0 14px;}
@@ -14,47 +172,7 @@
   .card-meta { padding-left: 0; gap: 12px; font-size: 12px;}
   .stat {left: 12px;bottom: 12px;max-width: 180px;padding: 12px;gap: 10px;}
   .stat strong {font-size: 16px; }
-    /* <===============  Nav Bar ================> */
-    .nav_bar a {
-        font-size: var(--text-1xl);
-    }
-    .nav_bar a img {
-        width: var(--space-5);
-    }
-    .menu-icon{
-        display: block;
-    }
-    .nav_bar .menu_list {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 64px;
-        width: 99%;
-        background-color: var(--color-bg);
-        padding: var(--space-3);
-        gap: var(--space-5) 0;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        z-index: 99;
-    }
-    #menu-toggle:checked ~ .menu_list  {
-        display: flex;
-    }
-    /* ========================================= */
-
-
-
-    /* =================  Footer =============== */
-    
-    .footer_section{
-        display: flex;
-        flex-direction: column;
-    }
-    .footer_info{
-        display: flex;
-        flex-direction: column;
-    }
-    /* ========================================= */
-
+   
 
 
 }
