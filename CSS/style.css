@@ -144,7 +144,7 @@ p {
 }
 
 .catalog_title h1 {
-    font-size: var(--text-title-hero);
+    font-size: var(--text-3xl);
     padding-right: 0;
 }
 
@@ -169,16 +169,10 @@ p {
     gap: var(--space-8);
 }
 
-.section_2_hero_div div h1 {
-    font-size: var(--text-3xl);
-}
 
-.section_2_hero_div div h3 {
-    font-size: var(--text-sm);
-}
 
 .section_2_hero_div div h1 span {
-    font-size: var(--text-sm);
+    font-size: var(--text-base);
 }
 
 .sort_section {
