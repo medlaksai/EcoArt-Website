@@ -31,7 +31,7 @@
     <!------------------   Main section   ----------------------------->
     <main class="main_section">
         <div class="small_nav">
-            <div >
+            <div>
                 <p><img src="assets/icons/Icon-2.png" alt="ICON-2"> TRAÇABILITÉ MATIÈRE 100% VÉRIFIÉE</p>
                 <p>Chaque objet détourne des déchets nobles des filières d'enfouissement.</p>
             </div>
@@ -43,23 +43,282 @@
 
         <div class="main_hero_catalog">
             <div class="catalog_title">
-                <h4><div></div>FILIÈRE D'ÉCO-CONCEPTION FRANÇAISE</h4>
+                <h4><div></div> FILIÈRE D'ÉCO-CONCEPTION FRANÇAISE</h4>
                 <h1>Catalogue d'objets upcyclés & pièces uniques</h1>
                 <p>
                     Des rebuts nobles réinventés en art de vivre durable. Chaque pièce est
                     manufacturée à la main en série très limitée, traçable jusqu'au gisement source.
                 </p>
             </div>
-            <div>
-                <div>
-                    <h3>MATIÈRE DÉTOURNÉE</h3>
-                    <h1>14.8 <span>t</span></h1>
-                    <p>Depuis janvier 2025</p>
+            <div class="section_2_hero">
+                <div class="section_2_hero_div">
+                    <div>
+                        <h3>MATIÈRE DÉTOURNÉE</h3>
+                        <h1>14.8 <span>t</span></h1>
+                        <p>Depuis janvier 2025</p>
+                    </div>
+                    <div>
+                        <h3>ÉMISSIONS ÉVITÉES</h3>
+                        <h1>-32.4 <span>t</span></h1>
+                        <p>Équivalent CO₂ eq</p>
+                    </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="sort_section">
+            <div class="search_bar">
                 <div>
-                    <h3>ÉMISSIONS ÉVITÉES</h3>
-                    <h1>-32.4 <span>t</span></h1>
-                    <p>Équivalent CO₂ eq</p>
+                    <div class="search_container">
+                        <img src="assets/icons/search_icon.png" alt="Search Icon" class="search_icon">
+                        <input type="text" placeholder="Rechercher bois, carafe, chêne, lin">
+                    </div>
+                </div>
+                <div class="search_midle">
+                    <p>ESPACES:</p>
+                    <div>
+                        <button class="btn_filter active">Tous</button>
+                        <button class="btn_filter">Salon</button>
+                        <button class="btn_filter">Art de la table</button>
+                        <button class="btn_filter">Luminaire</button>
+                        <button class="btn_filter">Décoration</button>
+                        <button class="btn_filter">Mobilier</button>
+                    </div>
+                </div>
+                <div class="sort_select">
+                    <p>TRIER:</p>
+                    <select name="detai" id="detai">
+                        <option value="Option1">Nouveautés d'atelier</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="filter_tags">
+                <p>MATIÈRE REVALORISÉE :</p>
+                <div class="tags_container">
+                    <button class="tag_btn active">Toutes les matières</button>
+                    <button class="tag_btn">Bois revalorisé</button>
+                    <button class="tag_btn">Tissus & Textiles</button>
+                    <button class="tag_btn">Verre surcyclé</button>
+                    <button class="tag_btn">Plastiques techniques</button>
+                </div>
+                <span class="count_info">8 pièces uniques disponibles</span>
+            </div>
+        </div>
+
+        <!-- Catalog Grid Section -->
+        <div class="products_grid">
+            <!-- Product Card 1 -->
+            <div class="product_card">
+                <div class="card_image_Catalogue">
+                    <img src="assets/pictures/image_1.png" alt="Carafe Écume Brute">
+                    <span class="badge_top_left"><img src="assets/icons/Icon.png" alt="Icon">100% Bouteilles de vin recyclées</span>
+                    <span class="badge_top_right">-4.2 kg CO₂</span>
+                    <span class="badge_bottom">Série numérotée • 12 ex.</span>
+                </div>
+                <div class="card_content">
+                    <div class="card_header">
+                        <span class="category">ART DE LA TABLE</span>
+                        <span class="artisan">Atelier SolVerre (Lyon)</span>
+                    </div>
+                    <h3>Carafe Écume Brute</h3>
+                    <p>Fondue au four solaire basse température à partir de verre cullet...</p>
+                    <div class="card_footer">
+                        <div class="price">48 € <span>TVA incluse</span></div>
+                        <button class="btn_add"><img src="assets/icons/Icon-buy.png" alt=""> Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 2 -->
+            <div class="product_card">
+                <div class="card_image_Catalogue">
+                    <img src="assets/pictures/image_35.png" alt="Lampe Bille de Chêne">
+                    <span class="badge_top_left"><img src="assets/icons/Icon-tree.png" alt="Icon">95% Chêne de charpente sauvé</span>
+                    <span class="badge_top_right">-8.9 kg CO₂</span>
+                    <span class="badge_bottom badge_alert">Plus que 2 exemplaires</span>
+                </div>
+                <div class="card_content">
+                    <div class="card_header">
+                        <span class="category">LUMINAIRE</span>
+                        <span class="artisan">Marc Verdier (Morvan)</span>
+                    </div>
+                    <h3>Lampe d'ambiance 'Bille de Chêne'</h3>
+                    <p>Poutre centenaire démontée d'une grange agricole, brossée à l'huile...</p>
+                    <div class="card_footer">
+                        <div class="price">135 € <span>Garantie 5 ans</span></div>
+                        <button class="btn_add"><img src="assets/icons/Icon-buy.png" alt=""> Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 3 -->
+            <div class="product_card">
+                <div class="card_image_Catalogue">
+                    <img src="assets/pictures/image_32.png" alt="Coussin Parcelle">
+                    <span class="badge_top_left"><img src="assets/icons/Icon-3.png" alt="Icon">Chutes de Lin Normand</span>
+                    <span class="badge_top_right">-3.1 kg CO₂</span>
+                    <span class="badge_bottom">Pièce Unique (#47)</span>
+                </div>
+                <div class="card_content">
+                    <div class="card_header">
+                        <span class="category">SALON</span>
+                        <span class="artisan">Tissage Re-Vie (Roubaix)</span>
+                    </div>
+                    <h3>Coussin Géométrique 'Parcelle'</h3>
+                    <p>Assemblage minutieux de surplus de filatures françaises et rembourrage en...</p>
+                    <div class="card_footer">
+                        <div class="price">55 € <span>Fait main 100%</span></div>
+                        <button class="btn_add"><img src="assets/icons/Icon-buy.png" alt=""> Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 4 -->
+            <div class="product_card">
+                <div class="card_image_Catalogue">
+                    <img src="assets/pictures/image_11.png" alt="Assise Terrazzo Estran">
+                    <span class="badge_top_left"><img src="assets/icons/Icon-2.png" alt="Icon">100% Déchets Plastiques Marins</span>
+                    <span class="badge_top_right">-12.4 kg CO₂</span>
+                    <span class="badge_bottom">Série Éditeur • 8 ex.</span>
+                </div>
+                <div class="card_content">
+                    <div class="card_header">
+                        <span class="category">MOBILIER</span>
+                        <span class="artisan">Plastik Lab (Brest)</span>
+                    </div>
+                    <h3>Assise Terrazzo 'Estran'</h3>
+                    <p>Thermo-pressage sans colle de bouchons et filets de pêche récupérés...</p>
+                    <div class="card_footer">
+                        <div class="price">180 € <span>Inaltérable & lavable</span></div>
+                        <button class="btn_add"><img src="assets/icons/Icon-buy.png" alt=""> Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 5 -->
+            <div class="product_card">
+                <div class="card_image_Catalogue">
+                    <img src="assets/pictures/image_21.png" alt="Soliflore Organique Goutte">
+                    <span class="badge_top_left"><img src="assets/icons/Icon.png" alt="Icon">100% Bocaux & Verre Cullet</span>
+                    <span class="badge_top_right">-5.0 kg CO₂</span>
+                    <span class="badge_bottom">Pièce Unique (#12)</span>
+                </div>
+                <div class="card_content">
+                    <div class="card_header">
+                        <span class="category">DÉCORATION</span>
+                        <span class="artisan">Verrerie d'Anjou</span>
+                    </div>
+                    <h3>Soliflore Organique 'Goutte'</h3>
+                    <p>Façonné à la canne traditionnelle sans moule industriel, chaque reflet est le...</p>
+                    <div class="card_footer">
+                        <div class="price">62 € <span>Signature pyrogravée</span></div>
+                        <button class="btn_add"><img src="assets/icons/Icon-buy.png" alt=""> Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 6 -->
+            <div class="product_card">
+                <div class="card_image_Catalogue">
+                    <img src="assets/pictures/image_36.png" alt="Planche d'Apparat Mosaïque">
+                    <span class="badge_top_left"><img src="assets/icons/Icon-tree.png" alt="Icon">Chutes d'Ébénisterie Locale</span>
+                    <span class="badge_top_right">-6.3 kg CO₂</span>
+                    <span class="badge_bottom">Édition limitée • 15 ex.</span>
+                </div>
+                <div class="card_content">
+                    <div class="card_header">
+                        <span class="category">ART DE LA TABLE</span>
+                        <span class="artisan">Atelier Copeaux (Jura)</span>
+                    </div>
+                    <h3>Planche d'Apparat 'Mosaïque'</h3>
+                    <p>Chutes nobles de fabrication de meubles haut de gamme assemblées en...</p>
+                    <div class="card_footer">
+                        <div class="price">72 € <span>Finition cire d'abeille bio</span></div>
+                        <button class="btn_add"><img src="assets/icons/Icon-buy.png" alt=""> Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 7 -->
+            <div class="product_card">
+                <div class="card_image_Catalogue">
+                    <img src="assets/pictures/image_24.png" alt="Coupe Vide-Poche Sillage">
+                    <span class="badge_top_left"><img src="assets/icons/Icon-2.png" alt="Icon">100% Flacons HDPE Ménagers</span>
+                    <span class="badge_top_right">-2.8 kg CO₂</span>
+                    <span class="badge_bottom">Stock : 6 ex.</span>
+                </div>
+                <div class="card_content">
+                    <div class="card_header">
+                        <span class="category">DÉCORATION</span>
+                        <span class="artisan">Studio Cycle (Nantes)</span>
+                    </div>
+                    <h3>Coupe Vide-Poche 'Sillage'</h3>
+                    <p>Chaque pièce arbore des marbrures aléatoires et uniques résultant de la...</p>
+                    <div class="card_footer">
+                        <div class="price">34 € <span>Résistant à l'eau</span></div>
+                        <button class="btn_add"><img src="assets/icons/Icon-buy.png" alt=""> Ajouter</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 8 -->
+            <div class="product_card">
+                <div class="card_image_Catalogue">
+                    <img src="assets/pictures/image_20.png" alt="Suspension Cocon Grand Large">
+                    <span class="badge_top_left"><img src="assets/icons/Icon-3.png" alt="Icon">Voiles de Bateaux Surcyclées</span>
+                    <span class="badge_top_right">-7.5 kg CO₂</span>
+                    <span class="badge_bottom badge_alert">Dernière pièce disponible</span>
+                </div>
+                <div class="card_content">
+                    <div class="card_header">
+                        <span class="category">LUMINAIRE</span>
+                        <span class="artisan">Atelier Vent Debout (Lorient)</span>
+                    </div>
+                    <h3>Suspension Cocon 'Grand Large'</h3>
+                    <p>Toiles de dacron régatées collectées en Bretagne, lavées à l'eau de pluie et...</p>
+                    <div class="card_footer">
+                        <div class="price">110 € <span>Câble textile lin 2m inclus</span></div>
+                        <button class="btn_add"><img src="assets/icons/Icon-buy.png" alt=""> Ajouter</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pagination Section -->
+        <div class="pagination_section">
+            <span class="page_info">Affichage de <b>1</b> à <b>8</b> sur <b>24</b> créations disponibles</span>
+            <div class="pagination_controls">
+                <button class="page_btn">&lt;</button>
+                <button class="page_btn active">1</button>
+                <button class="page_btn">2</button>
+                <button class="page_btn">3</button>
+                <button class="page_btn">&gt;</button>
+            </div>
+            <span class="page_count">Page 1 sur 3</span>
+        </div>
+
+        <!-- Features Info Section -->
+        <div class="features_section">
+            <div class="feature_card">
+                <div class="Emballage"><img src="assets/icons/Icon-6.png" alt="Icon Emballage"></div>
+                <div>
+                    <h4>Emballage Zéro Plastique</h4>
+                    <p>Calage en copeaux de bois d'atelier non traité et sachets d'amidon de maïs 100% compostables à domicile.</p>
+                </div>
+            </div>
+            <div class="feature_card">
+                <div class="Fret"><img src="assets/icons/Icon-7.png" alt="Icon Fret"></div>
+                <div>
+                    <h4>Fret Éco-Responsable</h4>
+                    <p>Expéditions groupées bi-hebdomadaires privilégiant le rail et la livraison finale en vélo-cargo.</p>
+                </div>
+            </div>
+            <div class="feature_card">
+                <div class="Passeport"><img src="assets/icons/Icon-8.png" alt="Icon Passeport"></div>
+                <div>
+                    <h4>Passeport Numérique</h4>
+                    <p>Chaque pièce inclut un certificat de provenance horodaté détaillant le site exact de valorisation du matériau.</p>
                 </div>
             </div>
         </div>
