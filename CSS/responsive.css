@@ -142,6 +142,7 @@
 
 @media (max-width: 767px) {
 <<<<<<< HEAD
+<<<<<<< HEAD
    
  .hero-area { grid-template-columns: 1fr; gap: 36px; padding: 72px 20px 40px;}
   .h1-hero {font-size: clamp(32px, 8vw, 42px); line-height: 1.2; margin: 18px 0 14px;}
@@ -176,6 +177,8 @@
 .stat strong { display: block; font-size: 18px; color: var(--forest); line-height: 1.2; }
 .stat span { font-size: 11px; line-height: 1.3; color: var(--text); display: block; }
 =======
+=======
+>>>>>>> c203167ff00f20b10756ddfbb78c24339c48abbb
     .artisans-main {
         padding: 40px 24px;
     }
@@ -214,7 +217,10 @@
     .footer_section {
         grid-template-columns: repeat(2, 1fr);
     }
+<<<<<<< HEAD
 >>>>>>> 9989a80d9b6b0fc9d69f532360844a5d69e4fb0b
+=======
+>>>>>>> c203167ff00f20b10756ddfbb78c24339c48abbb
 
     .hero-area {
         grid-template-columns: 1fr;
@@ -982,6 +988,7 @@
 /* Tablette */
 @media (min-width: 768px) and (max-width: 1023px) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 .hero-area { grid-template-columns: 1fr; gap: 36px; padding: 72px 20px 40px; }
 .h1-hero { font-size: clamp(32px, 8vw, 42px); line-height: 1.2; margin: 18px 0 14px; }
 .hero-p { font-size: 15px; line-height: 1.7; }
@@ -1008,6 +1015,8 @@
     .footer_section{
         grid-template-columns: repeat(2, 1fr);
 =======
+=======
+>>>>>>> c203167ff00f20b10756ddfbb78c24339c48abbb
     .hero-area {
         grid-template-columns: 1fr;
         gap: 36px;
@@ -1094,7 +1103,10 @@
 
     .footer_section {
         grid-template-columns: 1fr 1fr;
+<<<<<<< HEAD
 >>>>>>> 9989a80d9b6b0fc9d69f532360844a5d69e4fb0b
+=======
+>>>>>>> c203167ff00f20b10756ddfbb78c24339c48abbb
         gap: var(--space-5) 0;
     }
 
@@ -1104,6 +1116,7 @@
         /* font-size: var(--text-3xl); */
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     .artisans-main {
         padding: 40px 24px;
     }
@@ -1112,6 +1125,8 @@
         grid-template-columns: 1.5fr 1fr;
         align-items: start;
 =======
+=======
+>>>>>>> c203167ff00f20b10756ddfbb78c24339c48abbb
 /* ========================================= */
 }
 
@@ -1167,8 +1182,8 @@
     }
 
     .artisans-intro-container {
-        grid-template-columns: 1.6fr 1fr;
-        gap: 48px;
+        grid-template-columns: 1.5fr 1fr;
+        align-items: start;
     }
 
     .intro h1 {
@@ -1240,7 +1255,10 @@
 
     .artisans-main {
         padding: 56px 32px;
+<<<<<<< HEAD
 >>>>>>> 9989a80d9b6b0fc9d69f532360844a5d69e4fb0b
+=======
+>>>>>>> c203167ff00f20b10756ddfbb78c24339c48abbb
     }
 
     .artisans-intro-container {
@@ -1249,11 +1267,12 @@
     }
 
     .intro h1 {
-        font-size: 44px;
+        font-size: 58px;
     }
 
     .artisans-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
@@ -1277,6 +1296,8 @@
 
 }
 =======
+=======
+>>>>>>> c203167ff00f20b10756ddfbb78c24339c48abbb
         gap: 32px;
     }
 
@@ -1300,4 +1321,7 @@
 
 
 /* media  */
+<<<<<<< HEAD
 >>>>>>> 9989a80d9b6b0fc9d69f532360844a5d69e4fb0b
+=======
+>>>>>>> c203167ff00f20b10756ddfbb78c24339c48abbb
