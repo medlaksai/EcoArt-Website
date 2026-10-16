@@ -441,6 +441,40 @@
  */
 
 @media (min-width: 1280px) {
+     .artisans-main {
+        width: calc(100% - 64px);
+        padding-top: 40px;
+    }
+
+    .artisans-intro-container {
+        grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr);
+        gap: 32px;
+    }
+
+    .artisans-main .intro h1 {
+        font-size: 52px;
+    }
+
+    .artisans-main .artisans-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .artisans-main .artisan-card {
+        padding: 24px;
+    }
+
+    .artisan-badge {
+        display: inline-flex;
+    }
+
+    .artisans-main .artisan-gallery img {
+        height: 150px;
+    }
+
+    .artisans-main .artisans-location {
+        grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+        padding: 32px;
+    }
 
     .artisans-main {
         padding: 56px 32px;
