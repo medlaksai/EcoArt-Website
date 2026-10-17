@@ -1440,8 +1440,7 @@ h2 {
 .left-badge { position: relative; }
 .card {
   position: relative;
-  height: 612
-  px;
+  height: 612px;
   border-radius: 8px;
   overflow: hidden;
   color: var(--color-white);
@@ -1923,7 +1922,7 @@ h2 {
  
 /* session */
 .sessions {
-  width: 100%;
+  max-width: var(--container-max);
   margin: 0 auto;
   padding: var(--space-7) var(--space-5);
 }
