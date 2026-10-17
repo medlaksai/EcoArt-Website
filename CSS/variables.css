@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');:root {
   /* ---------- Couleurs de marque  ---------- */
   --color-green: #2D5A43;          /* vert principal : boutons, badges, liens */
   --color-green-dark: #14402D;     /* titres, sections sombres (CTA, carte audit) */
@@ -36,13 +35,13 @@
   --color-btn-home3: #F2FCF4;
 
   /* ---------- Typographie ---------- */
-  --text-font: "Space Grotesk", sans-serif, system-ui, -apple-system, "Segoe UI";
+  --text-font: '"Space Grotesk", sans-serif, sy'stem-ui, -apple-system, "Segoe UI";
   --text-fonts: "Space Grotesk", system-ui, sans-serif;
   --text-xs: 0.75rem;    /* 12px : etiquettes, badges */
   --text-sm: 0.875rem;   /* 14px : texte secondaire */
   --text-base: 1rem;     /* 16px : texte courant */
   --text-lg: 1.375rem;   /* 22px : titres de cartes */
-  --text-xl: 1.75rem;    /* 28px : titres de section */
+  --text-1xl: 1.75rem;    /* 28px : titres de section */
   --text-2xl: 2.25rem;   /* 36px : titre H1 mobile */
   --text-3xl: 2.75rem;   /* 44px : gros chiffres (impact) */
   --text-4xl: 3.5rem;  /* 56px */

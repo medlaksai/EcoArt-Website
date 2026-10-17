@@ -17,8 +17,8 @@ Built by the **Nexora** team using only **HTML and native CSS** (no frameworks).
 | Catalogue | `produits.html` | List of recycled products by material |
 | Services | `services.html` | DIY workshops and a booking form |
 | Artisans | `artisans.html` | The people who make the objects |
-| Impact | `impact.html` | Ecological figures (e.g. kilos of waste recycled) |
-| Contact | `contact.html` | Contact form _(if your team has 6 members)_ |
+| Impact | `impact.html` | Ecological figures  |
+| Contact | `contact.html` | Contact form  |
 
 ---
 
