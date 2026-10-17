@@ -1440,7 +1440,8 @@ h2 {
 .left-badge { position: relative; }
 .card {
   position: relative;
-  height: 612px;
+  height: 612
+  px;
   border-radius: 8px;
   overflow: hidden;
   color: var(--color-white);
