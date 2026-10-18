@@ -1924,7 +1924,7 @@ h2 {
  
 /* session */
 .sessions {
-  max-width: var(--container-max);
+  width: 100%;
   margin: 0 auto;
   padding: var(--space-7) var(--space-5);
 }
