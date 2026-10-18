@@ -5,7 +5,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: var(--text-fonts);
-    background: var(--hero-bg);
+    background-color: var(--color-bg);
 }
 
 p {
@@ -779,9 +779,10 @@ summary:focus-visible {
   outline-offset: 3px;
 }
 .page-shell {
-  width: min(var(--container-max), calc(100% - 48px));
+  width: 100%;
   margin: 90px auto 0 auto;
   padding: 0 var(--space-5) ;
+  /* background-color: var(--color-surface); */
 }
 .hero {
   margin-bottom: var(--space-5);
@@ -1507,7 +1508,7 @@ h2 {
 .statt-title { font-size: 20px; font-weight: 500; line-height: 1.4; color: var(--text-font); }
 .statt-desc { font-size: 14px; line-height: 1.45; margin-top: 0.5px; }
 .home-body {background-color: #F2FCF4;}
-.second-section { max-width: 1128px; margin: 0 auto; padding: 56px 24px; }
+.second-section { width: 100%; margin: 0 auto; padding: 56px 24px; }
 .sec-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; margin-bottom: 32px; }
 .sec-head h2, .sec-center h2 { font-size: 36px; line-height: 1.15; font-weight: 700; color: var(--forest); letter-spacing: -.01em; }
 .sec-center { text-align: center; max-width: 720px; margin: 0 auto 40px; }
@@ -1924,7 +1925,7 @@ h2 {
  
 /* session */
 .sessions {
-  max-width: var(--container-max);
+  width: 100%;
   margin: 0 auto;
   padding: var(--space-7) var(--space-5);
 }
@@ -2432,10 +2433,10 @@ h2 {
 
 
 .artisans-main {
-    width: calc(100% - 32px);
-    max-width: var(--container-max);
-    margin: 0 auto;
-    padding: var(--space-6) 0;
+    width: 100%;
+    /* max-width: var(--container-max); */
+    /* margin: 0 auto; */
+    padding: var(--space-6) var(--space-5);
 }
 
 .artisans-main img {
